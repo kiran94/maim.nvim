@@ -4,6 +4,14 @@ Neovim plugin for taking screenshots
 
 Take Screenshots directly from [Neovim](https://github.com/neovim/neovim) and embed references into markdown documents. This plugin relies on [maim](https://github.com/naelstrof/maim) being installed on your system.
 
+## Usage
+
+```lua
+use {'kiran94/maim.nvim', config = require('maim').setup(), cmd = { 'Maim', 'MaimMarkdown' } }
+```
+
+*The `cmd` option will ensure the plugin is lazy loaded*
+
 ## Commands 
 
 | Command                             | Description                                                           |
