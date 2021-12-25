@@ -14,10 +14,10 @@ use {'kiran94/maim.nvim', config = require('maim').setup(), cmd = { 'Maim', 'Mai
 
 ## Commands 
 
-| Command                             | Description                                                           |
-| --------                            | ------------                                                          |
-| `:Maim output_path`                 | Take a screenshot                                                     |
-| `:MaimMarkdown output_path [title]` | Take a screenshot and save a markdown reference to the current buffer |
+| Command                             | Description                                                                                  |
+| --------                            | ------------                                                                                 |
+| `:Maim output_path`                 | Take a screenshot and save to output_path                                                    |
+| `:MaimMarkdown output_path [title]` | Take a screenshot and save a markdown reference to the current buffer. The title is optional.|
 
 ## Example 
 
