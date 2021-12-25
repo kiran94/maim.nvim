@@ -23,7 +23,7 @@ use {'kiran94/maim.nvim', config = require('maim').setup(), cmd = { 'Maim', 'Mai
 
 Writing a Markdown file and need to take a screenshot from reference material and attach. You can use `:MaimMarkdown` to do this without leaving the editor. This will launch `maim` so you can take a screenshot, save the file to the specified location and then add a markdown link in your current buffer.
 
-<iframe src="https://giphy.com/embed/3XXUv33JRQNzSKWaPr" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/screenshot-neovim-maim-3XXUv33JRQNzSKWaPr">via GIPHY</a></p>
+<img src="https://media.giphy.com/media/3XXUv33JRQNzSKWaPr/giphy.gif" />
 
 ## Developing 
 
