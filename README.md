@@ -7,10 +7,10 @@ Take Screenshots directly from [Neovim](https://github.com/neovim/neovim) and em
 ## Usage
 
 ```lua
-use {'kiran94/maim.nvim', config = require('maim').setup(), cmd = { 'Maim', 'MaimMarkdown' } }
+use {'kiran94/maim.nvim', config = function() require('maim').setup() end }
 ```
 
-*The `cmd` option will ensure the plugin is lazy loaded*. Once installed, you can check if the plugin is ready to work via `:checkhealth maim`. Note that if you take the lazy loaded approach, the plugin will likely needs to be loaded to check health.
+Once installed, you can check if the plugin is ready to work via `:checkhealth maim`. Note that if you take the lazy loaded approach, the plugin will likely needs to be loaded to check health.
 
 ## Commands 
 
