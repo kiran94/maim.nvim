@@ -10,7 +10,7 @@ Take Screenshots directly from [Neovim](https://github.com/neovim/neovim) and em
 use {'kiran94/maim.nvim', config = require('maim').setup(), cmd = { 'Maim', 'MaimMarkdown' } }
 ```
 
-*The `cmd` option will ensure the plugin is lazy loaded*
+*The `cmd` option will ensure the plugin is lazy loaded*. Once installed, you can check if the plugin is ready to work via `:checkhealth maim`. Note that if you take the lazy loaded approach, the plugin will likely needs to be loaded to check health.
 
 ## Commands 
 
@@ -29,6 +29,7 @@ Writing a Markdown file and need to take a screenshot from reference material an
 
 Assuming you are at the root of the repo.
 
-1. Ensure you have [maim](https://github.com/naelstrof/maim#installation) installed.
-2. run `make`
+1. run `make`
     - This will add the local plugin to your `runtimepath` and open the main `init.lua` along with a sample markdown file in a split.
+2. Within Neovim, run `:checkhealth maim`
+    - If you do not have `maim` installed then refer to [this](https://github.com/naelstrof/maim#installation).
