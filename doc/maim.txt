@@ -1,0 +1,27 @@
+maim.txt
+maim
+================================================================================
+INTRO                                                                maim-intro
+
+maim.nvim is a plugin for taking screenshots within Neovim. It helps to invoke the
+`maim` command and optionally add an automatic reference to a markdown file.
+
+
+Getting started with maim:
+
+1. Run :checkhealth maim to make sure everything is installed
+2. Open a Markdown file
+3. Run :MaimMarkdown my_image.png
+
+To find out more:
+https://github.com/kiran94/maim.nvim
+
+================================================================================
+CONFIGURATION                                                        maim-config
+
+maim.setup({opts})                                    *maim.setup()*
+    Setup function to be run by user. Configures the defaults and commands.
+
+    Usage:
+    >
+    require('maim').setup{}
