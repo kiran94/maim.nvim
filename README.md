@@ -1,6 +1,9 @@
 # maim.nvim 
 
-Neovim plugin for taking screenshots 
+> Neovim plugin for taking screenshots
+
+[![lint](https://github.com/kiran94/maim.nvim/actions/workflows/lint.yml/badge.svg)](https://github.com/kiran94/maim.nvim/actions/workflows/lint.yml)
+
 
 Take Screenshots directly from [Neovim](https://github.com/neovim/neovim) and embed references into markdown documents. This plugin relies on [maim](https://github.com/naelstrof/maim) being installed on your system.
 
