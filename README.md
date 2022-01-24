@@ -1,6 +1,6 @@
 # maim.nvim 
 
-[![lint](https://github.com/kiran94/maim.nvim/actions/workflows/lint.yml/badge.svg)](https://github.com/kiran94/maim.nvim/actions/workflows/lint.yml)
+[![main](https://github.com/kiran94/maim.nvim/actions/workflows/main.yml/badge.svg)](https://github.com/kiran94/maim.nvim/actions/workflows/main.yml) ![GitHub](https://img.shields.io/github/license/kiran94/maim.nvim)
 
 > Neovim plugin for taking screenshots
 
