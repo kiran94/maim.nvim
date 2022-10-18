@@ -3,3 +3,6 @@ run:
 
 help:
 	nvim --cmd "set rtp+=./" --cmd 'lua require("maim").setup()' --cmd 'h maim'
+
+test:
+	nvim --cmd "set rtp+=./" --headless -c "PlenaryBustedDirectory lua/tests/ { minimal_init = 'lua/tests/setup.vim' }"
