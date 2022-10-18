@@ -1,3 +1,4 @@
+local utils = require("maim.utils")
 local M = {}
 
 M.setup = function()
@@ -14,6 +15,10 @@ M.invoke_screenshot = function(output_path)
 
     local executable = "maim"
     local file_options = "-s"
+
+    local current_buffer = vim.api.nvim_buf_get_name(0)
+    local current_directory = vim.fs.dirname(current_buffer)
+    output_path = utils.get_current_buffer_directory(output_path, current_buffer, current_directory)
 
     local command = executable .. " " .. file_options .. " " .. output_path
     -- vim.notify(command, 'debug')
