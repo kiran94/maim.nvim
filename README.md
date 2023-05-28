@@ -6,13 +6,20 @@
 
 Take Screenshots directly from [Neovim](https://github.com/neovim/neovim) and embed references into markdown documents. This plugin relies on [maim](https://github.com/naelstrof/maim) being installed on your system.
 
-## Usage
+## Install
+
+Using `lazy.nvim`:
 
 ```lua
-use {'kiran94/maim.nvim', config = function() require('maim').setup() end }
+{ 'kiran94/maim.nvim', config = true, cmd = {"Maim", "MaimMarkdown"} },
 ```
 
 Once installed, you can check if the plugin is ready to work via `:checkhealth maim`. Note that if you take the lazy loaded approach, the plugin will likely needs to be loaded to check health.
+
+### Dependencies
+
+- Neovim 0.9+
+- [maim](https://github.com/naelstrof/maim#install-using-your-package-manager-preferred)
 
 ## Commands 
 
